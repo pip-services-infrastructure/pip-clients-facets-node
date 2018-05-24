@@ -11,7 +11,7 @@ import { IFacetsClientV1 } from './IFacetsClientV1';
 export class FacetsHttpClientV1 extends CommandableHttpClient implements IFacetsClientV1 {
 
     constructor(config?: any) {
-        super('facets');
+        super('v1/facets');
 
         if (config != null)
             this.configure(ConfigParams.fromValue(config));
