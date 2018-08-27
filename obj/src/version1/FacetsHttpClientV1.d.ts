@@ -1,6 +1,6 @@
 import { PagingParams } from 'pip-services-commons-node';
 import { DataPage } from 'pip-services-commons-node';
-import { CommandableHttpClient } from 'pip-services-net-node';
+import { CommandableHttpClient } from 'pip-services-rpc-node';
 import { FacetV1 } from './FacetV1';
 import { IFacetsClientV1 } from './IFacetsClientV1';
 export declare class FacetsHttpClientV1 extends CommandableHttpClient implements IFacetsClientV1 {

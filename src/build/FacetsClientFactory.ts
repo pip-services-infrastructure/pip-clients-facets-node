@@ -1,5 +1,5 @@
 import { Descriptor } from 'pip-services-commons-node';
-import { Factory } from 'pip-services-commons-node';
+import { Factory } from 'pip-services-components-node';
 
 import { FacetsNullClientV1 } from '../version1/FacetsNullClientV1';
 import { FacetsDirectClientV1 } from '../version1/FacetsDirectClientV1';

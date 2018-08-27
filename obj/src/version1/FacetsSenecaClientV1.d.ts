@@ -1,6 +1,6 @@
 import { PagingParams } from 'pip-services-commons-node';
 import { DataPage } from 'pip-services-commons-node';
-import { CommandableSenecaClient } from 'pip-services-net-node';
+import { CommandableSenecaClient } from 'pip-services-seneca-node';
 import { FacetV1 } from './FacetV1';
 import { IFacetsClientV1 } from './IFacetsClientV1';
 export declare class FacetsSenecaClientV1 extends CommandableSenecaClient implements IFacetsClientV1 {

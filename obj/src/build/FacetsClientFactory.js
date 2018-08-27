@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const pip_services_commons_node_1 = require("pip-services-commons-node");
-const pip_services_commons_node_2 = require("pip-services-commons-node");
+const pip_services_components_node_1 = require("pip-services-components-node");
 const FacetsNullClientV1_1 = require("../version1/FacetsNullClientV1");
 const FacetsDirectClientV1_1 = require("../version1/FacetsDirectClientV1");
 const FacetsHttpClientV1_1 = require("../version1/FacetsHttpClientV1");
 const FacetsSenecaClientV1_1 = require("../version1/FacetsSenecaClientV1");
-class FacetsClientFactory extends pip_services_commons_node_2.Factory {
+class FacetsClientFactory extends pip_services_components_node_1.Factory {
     constructor() {
         super();
         this.registerAsType(FacetsClientFactory.NullClientV1Descriptor, FacetsNullClientV1_1.FacetsNullClientV1);
